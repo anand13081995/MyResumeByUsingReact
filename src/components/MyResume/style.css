@@ -1,0 +1,132 @@
+.resume-container {
+    display: flex;
+    padding-left: 12%;
+    padding-top: 2%;
+}
+
+.sidebar {
+    border: 1px solid black;
+    width: 15vw;
+    margin-right: 3%;
+    background-color: rgb(34, 121, 148);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1%;
+    position: fixed;
+}
+
+.sidebar img {
+    width: 150px;
+    height: 150px;
+    border: none;
+    border-radius: 50%;
+}
+
+.sidebar h4 {
+    color: white;
+    margin-top: 8%;
+}
+
+.about-container {
+    border: 1px solid black;
+    width: 60vw;
+    background-color: rgb(34, 121, 148);
+    border-radius: 15px;
+    margin-left: 18vw;
+}
+
+.about-header {
+    border-radius: 15px;
+}
+
+.about-header h1 {
+    color: white;
+    border: none;
+    width: 15vw;
+    height: 12vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.navbar {
+    background-color: rgb(41, 64, 71);
+    height: 10vh;
+    width: 30vw;
+    display: flex;
+    justify-content: space-evenly;
+    border: none;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    align-items: center;
+}
+
+.about-header hr {
+    width: 4vw;
+    background-color: yellow;
+    height: 1vh;
+    border: none;
+    border-radius: 15px;
+    margin-top: 2%;
+    margin-left: 4.5%;
+}
+
+.about-content {
+    padding: 3%;
+}
+
+.about-text {
+    border: 1px solid black;
+    padding: 2%;
+    padding-left: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(44, 84, 94);
+    border-radius: 15px;
+}
+
+.about-text p {
+    max-height: 75px;
+    overflow: hidden;
+    color: white;
+}
+
+.show-button {
+    background-color: rgb(44, 84, 94);
+    color: white;
+    border: none;
+    margin-top: 3%;
+}
+
+.focus-container {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.focus-header {
+    text-align: center;
+    color: white;
+}
+
+.focus-box {
+    border: 1px solid black;
+    display: flex;
+    gap: 20px;
+    padding: 2%;
+    width: 25vw;
+    border-radius: 15px;
+    background-color: rgb(44, 84, 95);
+}
+
+.focus-box svg {
+    fill: white;
+}
+
+.focus-box div {
+    color: white;
+}
